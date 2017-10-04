@@ -182,15 +182,26 @@ a {
 }
 
 /* Media Queries */
-/* 
-@media (min-width: @screen-sm-min) { 
-	.box {
 
+/* Small devices (tablets, 768px and up) */
+@media (min-width: @screen-sm-min) { 
+	.page-body-format,
+	.body-format,
+	.portfolio-gallery,
+	.portfolio-section {
+		width: 768px;
 	}
-}
+ }
 
 /* Medium devices (desktops, 992px and up) */
-/* @media (min-width: @screen-md-min) { ... } */
+@media (min-width: @screen-md-min) { 
+	.page-body-format,
+	.body-format,
+	.portfolio-gallery,
+	.portfolio-section {
+		width: 992px;
+	}
+ }
 
 /* Large devices (large desktops, 1200px and up) */
-/* @media (min-width: @screen-lg-min) { ... } */ 
+/* @media (min-width: @screen-lg-min) { ... } */
