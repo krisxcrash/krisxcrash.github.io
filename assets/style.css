@@ -2,7 +2,9 @@
 	font-family: 'Marvel', sans-serif;
 }
 
-a:hover {
+a:hover,
+a:visited,
+a:active {
 	text-decoration: none;
 	color: #333333;
 }
@@ -54,7 +56,7 @@ a:hover {
 
 /* First paragraph - About */
 
-#first-p {
+#first-paragraph {
 	padding: 75px 0;
 	font-size: 1.2em;
 	text-align: center;
@@ -114,9 +116,12 @@ a {
 	text-decoration: none;
 }
 
+.box a:visited {
+	text-decoration: none;
+}
+
 .box {
 	text-align: center;
-	border: 1px solid #ccc;
 	padding: 2em;
 	/* width: 25%; */
 	display: block;
@@ -164,6 +169,49 @@ a {
   0% { padding-top: 2em; }
   50% { padding-top: 2.5em; }
   100% { padding-top: 2em; }
+}
+
+/* Portfolio Images */
+#box_1 {
+	background: url("../portfolio/crystal_collector/assets/images/background_2.jpg") no-repeat;
+}
+
+#box_2 {
+	background: url("../portfolio/crystal_collector/assets/images/background_2.jpg") no-repeat;
+}
+
+#box_3 {
+	background: url("../portfolio/crystal_collector/assets/images/background_2.jpg") no-repeat;
+}
+
+#box_4 {
+	background: url("../portfolio/crystal_collector/assets/images/background_2.jpg") no-repeat;
+}
+
+#box_5 {
+	background: url("../portfolio/crystal_collector/assets/images/background_2.jpg") no-repeat;
+}
+
+#box_6 {
+	background: url("../portfolio/crystal_collector/assets/images/background_2.jpg") no-repeat;
+}
+#box_7 {
+	background: url("../portfolio/crystal_collector/assets/images/background_2.jpg") no-repeat;
+}
+
+#box_8 {
+	background: url("../portfolio/crystal_collector/assets/images/background_2.jpg") no-repeat;
+}
+
+#box_1:hover, 
+#box_2:hover,
+#box_3:hover, 
+#box_4:hover, 
+#box_5:hover,
+#box_6:hover,
+#box_7:hover,
+#box_8:hover {
+	background: #000;
 }
 
 /* Footer Design */
