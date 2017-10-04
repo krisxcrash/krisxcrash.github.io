@@ -1,0 +1,178 @@
+* {
+	font-family: 'Marvel', sans-serif;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #333333;
+}
+
+.page-body-format {
+	padding: 0;
+}
+
+/* Navbar Design */
+
+.navbar-layout {
+	border-bottom: 5px solid #00FFCD;
+}
+
+/* Jumbotron */ 
+
+.container-format {
+	margin: 0;
+	padding: 0;
+}
+
+.jumbo-format {
+	margin-top: 0px;
+	padding: 320px 300px 75px 300px;
+	background: url('images/plexus_black.jpg') no-repeat;
+}
+
+.jumbo-arrow-down {
+	margin-top: 200px; 
+	text-align: center;
+}
+/* Typewriter Effect */ 
+
+.typewrite {
+	color: #00FFCD;
+}
+
+#typewriter-design {
+	text-align: center;
+}
+
+/* Body Section - below Jumbotron */
+.body-format {
+	width: 1310px;
+	margin: 0 auto;
+	padding: 0;
+	display: block;
+}
+
+/* First paragraph - About */
+
+#first-p {
+	padding: 75px 0;
+	font-size: 1.2em;
+	text-align: center;
+}
+
+.about-arrow-down {
+	margin-top: 100px; 
+	text-align: center;
+}
+
+/* Portfolio */
+
+.header-design {
+	text-align: center;
+	color: #00FFCD;
+}
+
+.portfolio-div,
+.portfolio-links,
+.portfolio-images {
+	width: 325px;
+	padding: 0;
+	margin: 0;
+}
+
+.portfolio-section {
+	background: #000;
+	margin: 0 auto;
+	padding: 75px 0 700px 0;
+}
+
+.portfolio-gallery {
+	width: 1310px;
+	margin: 0 auto;
+	padding: 25px 0 0 0 ;
+	display: block;	
+}
+
+.gallery {
+	padding: 0 0 150px 0;
+	margin: 0;
+}
+
+/* Portfolio Link Effects */
+
+a {
+  color: #00FFCD;
+  text-decoration: none;
+}
+
+.box {
+	text-align: center;
+	border: 1px solid #ccc;
+	padding: 2em;
+	width: 25%;
+	display: block;
+	float: left;
+	height: 300px;
+	color: black;
+	margin: -1px 0 0 -1px;
+	background: url("https://www.placehold.it/300x300");
+	/* background: linear-gradient(
+     white, white 50%, #333 50%, #333
+  ); */
+	background-size: 100% 100%;
+	transition: all 0.2s ease;
+	animation: down-bump 0.4s ease;
+}
+.box h2 {
+  font-weight: 400;
+  letter-spacing: -1.5px;
+  line-height: 1.2;
+}
+.box h3 {
+	font-size: 1.3em;
+}
+
+.box h4 {
+	font-size: 1em;
+}
+
+.box:hover {
+  background: #000;
+  animation: up-bump 0.4s ease;
+}
+
+.box:hover h2 span {
+  color: white;
+}
+.box:hover h3 {
+  color: #999;
+}
+
+@keyframes up-bump {
+  0% { padding-top: 2em; }
+  50% { padding-top: 1.5em; }
+  100% { padding-top: 2em; }
+}
+@keyframes down-bump {
+  0% { padding-top: 2em; }
+  50% { padding-top: 2.5em; }
+  100% { padding-top: 2em; }
+}
+
+/* Footer Design */
+
+#footer {
+	font-size: 10px;
+	text-align: center;
+	color: #dddddd;
+	background: #333333;
+	border-top: 5px solid #00FFCD;
+	position: fixed;
+	left: -90px;
+	bottom: 0;
+	width: 110%;
+	bottom: 0;
+	grid-row-start: 2;
+	grid-row-end: 3;
+	padding: 12px 0;
+}
