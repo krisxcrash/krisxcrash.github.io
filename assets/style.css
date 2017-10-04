@@ -83,7 +83,7 @@ a:hover {
 .portfolio-section {
 	background: #000;
 	margin: 0 auto;
-	padding: 75px 0 700px 0;
+	padding: 75px 0 100px 0;
 }
 
 .portfolio-gallery {
@@ -167,7 +167,6 @@ a {
 }
 
 /* Footer Design */
-
 #footer {
 	font-size: 10px;
 	text-align: center;
@@ -175,10 +174,8 @@ a {
 	background: #333333;
 	border-top: 5px solid #00FFCD;
 	position: fixed;
-	left: -90px;
 	bottom: 0;
-	width: 110%;
-	bottom: 0;
+	width: 100%;
 	grid-row-start: 2;
 	grid-row-end: 3;
 	padding: 12px 0;
