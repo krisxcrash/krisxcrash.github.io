@@ -48,7 +48,6 @@ a:active {
 
 /* Body Section - below Jumbotron */
 .body-format {
-	width: 1310px;
 	margin: 0 auto;
 	padding: 0;
 	display: block;
@@ -77,7 +76,6 @@ a:active {
 .portfolio-div,
 .portfolio-links,
 .portfolio-images {
-	width: 325px;
 	padding: 0;
 	margin: 0;
 }
@@ -89,10 +87,9 @@ a:active {
 }
 
 .portfolio-gallery {
-	width: 1310px;
 	margin: 0 auto;
 	padding: 25px 0 0 0 ;
-	display: block;	
+	display: inline-flex;	
 }
 
 .gallery {
@@ -105,6 +102,11 @@ a:active {
 a {
   color: #00FFCD;
   text-decoration: none;
+}
+
+.box {
+	border: 1px solid #fff;
+	height: 325px;
 }
 
 .box a {
@@ -122,24 +124,22 @@ a {
 
 .box {
 	text-align: center;
-	padding: 2em;
-	/* width: 25%; */
-	display: block;
-	float: left;
-	height: 300px;
-	color: black;
-	margin: -1px 0 0 -1px;
-	background: url("https://www.placehold.it/300x300");
-	/* background-size: 100% 100%; */
-	transition: all 0.2s ease;
-	animation: down-bump 0.4s ease;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
 }
+
 
 .box h2 {
   font-weight: 400;
   letter-spacing: -1.5px;
   line-height: 1.2;
 }
+
 .box h3 {
 	font-size: 1.3em;
 }
@@ -150,15 +150,18 @@ a {
 
 .box:hover {
   background: #000;
-  animation: up-bump 0.4s ease;
+  /* animation: up-bump */
 }
 
 .box:hover h2 span {
   color: white;
 }
+
 .box:hover h3 {
   color: #999;
 }
+
+
 
 @keyframes up-bump {
   0% { padding-top: 2em; }
@@ -169,50 +172,59 @@ a {
   0% { padding-top: 2em; }
   50% { padding-top: 2.5em; }
   100% { padding-top: 2em; }
-}
+} 
 
 /* Portfolio Images */
-/* #box_1 {
+
+#box_1 {
 	background: url("../portfolio/crystal_collector/assets/images/background_2.jpg") no-repeat;
 }
-
 #box_2 {
 	background: url("../portfolio/crystal_collector/assets/images/background_2.jpg") no-repeat;
 }
-
 #box_3 {
 	background: url("../portfolio/crystal_collector/assets/images/background_2.jpg") no-repeat;
 }
-
 #box_4 {
 	background: url("../portfolio/crystal_collector/assets/images/background_2.jpg") no-repeat;
 }
-
 #box_5 {
 	background: url("../portfolio/crystal_collector/assets/images/background_2.jpg") no-repeat;
 }
-
 #box_6 {
 	background: url("../portfolio/crystal_collector/assets/images/background_2.jpg") no-repeat;
 }
 #box_7 {
 	background: url("../portfolio/crystal_collector/assets/images/background_2.jpg") no-repeat;
 }
-
 #box_8 {
 	background: url("../portfolio/crystal_collector/assets/images/background_2.jpg") no-repeat;
-} */
+} 
 
-/* #box_1:hover, 
+#box_1,
+#box_2,
+#box_3,
+#box_4,
+#box_5,
+#box_6,
+#box_7,
+#box_8 {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+#box_1:hover,
 #box_2:hover,
-#box_3:hover, 
-#box_4:hover, 
+#box_3:hover,
+#box_4:hover,
 #box_5:hover,
 #box_6:hover,
 #box_7:hover,
 #box_8:hover {
-	background: #000;
-} */
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
 
 /* Footer Design */
 #footer {
