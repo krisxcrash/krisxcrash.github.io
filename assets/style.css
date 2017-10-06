@@ -88,7 +88,7 @@ div.jumbo-format {
 
 #first-paragraph,
 .contact-info {
-	padding: 250px 0;
+	padding: 25% 5% !important;
 	font-size: 1.2em;
 	text-align: center;
 }
@@ -147,7 +147,7 @@ div.jumbo-format {
 .portfolio-section {
 
 	margin-top: 0px;
-	/* padding: 320px 300px 75px 300px; */
+	padding: 50% 5% !important;
 	background: url('images/hero.jpg') no-repeat;
 	background-attachment: fixed;
     background-position: center;
