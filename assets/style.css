@@ -5,16 +5,24 @@
 a:hover,
 a:visited,
 a:active {
-	text-decoration: none;
+	text-decoration: none !important;
 	color: #333333;
-	background: transparent;
+	background-color: transparent !important;
 }
 
 .page-body-format {
 	padding: 0;
 }
 
+div.container-format {
+	padding: 0;
+}
+
 /* Navbar Design */
+
+.navbar-default {
+	background-color: transparent !important;
+}
 
 #nav-logo {
 	color: #000; 
@@ -43,9 +51,9 @@ a:active {
 	padding: 0;
 }
 
-.jumbo-format {
+div.jumbo-format {
 	margin-top: 0px;
-	padding: 320px 300px 75px 300px;
+	padding: 160px 300px 800px 300px !important;
 	background: url('images/laptop.jpg') no-repeat;
 	background-attachment: fixed;
     background-position: center;
@@ -78,7 +86,7 @@ a:active {
 
 #first-paragraph,
 #contact-info {
-	padding: 75px 0;
+	padding: 250px 0;
 	font-size: 1.2em;
 	text-align: center;
 }
@@ -86,6 +94,38 @@ a:active {
 .about-arrow-down {
 	margin-top: 100px; 
 	text-align: center;
+}
+
+.arrow1 {
+	color: #00FFCD;
+	font-weight: bolder;
+	position: relative;
+    left: 0px;
+    top: 825px;
+    z-index: 155px;
+}
+
+.arrow2 {
+	color: #00FFCD;
+	font-weight: bolder;
+	position: relative;
+    left: 0px;
+    top: 275px;
+    z-index: 155px;
+}
+
+.arrow3 {
+	color: #00FFCD;
+	font-weight: bolder;
+	position: relative;
+    left: 0px;
+    top: 125px;
+    z-index: 155px;
+}
+
+.arrow:hover {
+	color: #000;
+	text-decoration: none !important;
 }
 
 /* Portfolio */
@@ -251,6 +291,7 @@ a {
 
 
 .button-design {
+	align-content: center;
 	color: #000;
 	background: #00FFCD;	
 	border: 1px solid #00ffcd;
