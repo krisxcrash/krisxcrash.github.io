@@ -22,9 +22,11 @@ div.container-format {
 
 .navbar-default {
 	background-color: transparent !important;
+
 }
 
 #nav-logo {
+	font-size: 1.7em;
 	color: #000; 
 }
 
@@ -53,7 +55,7 @@ div.container-format {
 
 div.jumbo-format {
 	margin-top: 0px;
-	padding: 160px 300px 800px 300px !important;
+	padding: 15% 20% 75% 20% !important;
 	background: url('images/laptop.jpg') no-repeat;
 	background-attachment: fixed;
     background-position: center;
@@ -85,13 +87,13 @@ div.jumbo-format {
 /* First paragraph - About */
 
 #first-paragraph,
-#contact-info {
+.contact-info {
 	padding: 250px 0;
 	font-size: 1.2em;
 	text-align: center;
 }
 
-.about-arrow-down {
+/* .about-arrow-down {
 	margin-top: 100px; 
 	text-align: center;
 }
@@ -101,7 +103,7 @@ div.jumbo-format {
 	font-weight: bolder;
 	position: relative;
     left: 0px;
-    top: 825px;
+    top: 200%;
     z-index: 155px;
 }
 
@@ -126,7 +128,7 @@ div.jumbo-format {
 .arrow:hover {
 	color: #000;
 	text-decoration: none !important;
-}
+} */
 
 /* Portfolio */
 
