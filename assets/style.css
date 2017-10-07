@@ -198,13 +198,12 @@ a {
 .box {
 	text-align: center;
 	background: black;
-
     background-size: cover;
     background-repeat: no-repeat;
-    -webkit-transition: all .5s;
-    -moz-transition: all .5s;
-    -o-transition: all .5s;
-    transition: all .5s;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
 }
 
 
@@ -223,8 +222,8 @@ a {
 }
 
 .box:hover {
-  background: #000;
-  /* animation: up-bump */
+	background: #000;
+
 }
 
 .box:hover h2 span {
@@ -271,10 +270,7 @@ a {
 #box_6,
 #box_7,
 #box_8 {
-	-webkit-transform: scale(1);
-	transform: scale(1);
-	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
+	background-size: 600px;
 }
 #box_1:hover,
 #box_2:hover,
@@ -284,8 +280,7 @@ a {
 #box_6:hover,
 #box_7:hover,
 #box_8:hover {
-	-webkit-transform: scale(1.3);
-	transform: scale(1.3);
+	background-size: 800px;
 }
 
 /* Submit Form */
