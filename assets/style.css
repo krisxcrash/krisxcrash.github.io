@@ -212,25 +212,27 @@ a {
 /* Portfolio Images */
 
 #box_1 {
-	background: url("../portfolio/crystal_collector/assets/images/background_2.jpg") no-repeat;
+	background: url("../assets/images/event-network.jpg") no-repeat;
 }
 #box_2 {
-	background: url("../portfolio/crystal_collector/assets/images/background_2.jpg") no-repeat;
+	background: url("../assets/images/event-network.jpg") no-repeat;
 }
 #box_3 {
-	background: url("../portfolio/crystal_collector/assets/images/background_2.jpg") no-repeat;
+	background: url("../assets/images/background_2.jpg") no-repeat;
 }
 #box_4 {
-	background: url("../portfolio/crystal_collector/assets/images/background_2.jpg") no-repeat;
+	background: url("../assets/images/background_2.jpg") no-repeat;
 }
 #box_5 {
-	background: url("../portfolio/crystal_collector/assets/images/background_2.jpg") no-repeat;
+	background: url("../assets/images/background_2.jpg") no-repeat;
+	background-size: 135% !important;
 }
 #box_6 {
-	background: url("../portfolio/crystal_collector/assets/images/background_2.jpg") no-repeat;
+	background: url("../portfolio/train_scheduler/assets/images/train.jpg") no-repeat;
 }
 #box_7 {
-	background: url("../portfolio/crystal_collector/assets/images/background_2.jpg") no-repeat;
+	background: url("../assets/images/gif.gif") no-repeat;
+	background-size: 100% !important;
 }
 #box_8 {
 	background: url("../portfolio/crystal_collector/assets/images/background_2.jpg") no-repeat;
@@ -244,7 +246,7 @@ a {
 #box_6,
 #box_7,
 #box_8 {
-	background-size: 600px;
+	background-size: 125%;
 }
 #box_1:hover,
 #box_2:hover,
@@ -254,11 +256,73 @@ a {
 #box_6:hover,
 #box_7:hover,
 #box_8:hover {
-	background-size: 800px;
+	background-size: 200% !important;
 }
 
+#box_1 {
+	background: linear-gradient(
+		rgba(0, 0, 0, 0.45), 
+		rgba(0, 0, 0, 0.45)
+		),
+		url("../assets/images/event-network.jpg") no-repeat;
+}
+#box_2:hover {
+	background: linear-gradient(
+		rgba(0, 0, 0, 0.45), 
+		rgba(0, 0, 0, 0.45)
+		),
+		url("../assets/images/event-network.jpg") no-repeat;
+}
+#box_3:hover {
+	background: linear-gradient(
+		rgba(0, 0, 0, 0.45), 
+		rgba(0, 0, 0, 0.45)
+		),
+		url("../assets/images/background_2.jpg") no-repeat;
+}
+#box_4:hover {
+	background: linear-gradient(
+		rgba(0, 0, 0, 0.45), 
+		rgba(0, 0, 0, 0.45)
+		),
+		url("../assets/images/background_2.jpg") no-repeat;
+}
+#box_5:hover {
+	background: linear-gradient(
+		rgba(0, 0, 0, 0.45), 
+		rgba(0, 0, 0, 0.45)
+		),
+		url("../assets/images/background_2.jpg") no-repeat;
+}
+#box_6:hover {
+	background: linear-gradient(
+		rgba(0, 0, 0, 0.45), 
+		rgba(0, 0, 0, 0.45)
+		),
+		url("../portfolio/train_scheduler/assets/images/train.jpg") no-repeat;
+}
+#box_7:hover {
+	background: linear-gradient(
+		rgba(0, 0, 0, 0.45), 
+		rgba(0, 0, 0, 0.45)
+		),
+		url("../assets/images/gif.gif") no-repeat;
+	backgro:hoverund-size: 100%;
+}
+#box_8 {
+	background: linear-gradient(
+		rgba(0, 0, 0, 0.45), 
+		rgba(0, 0, 0, 0.45)
+		),
+		url("../portfolio/crystal_collector/assets/images/background_2.jpg") no-repeat;
+} 
 
-/* Contact */
+
+
+
+
+
+:hover/* Contact */
 
 #email:hover,
 #email:active {
