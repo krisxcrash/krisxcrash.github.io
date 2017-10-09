@@ -57,6 +57,7 @@ div.jumbo-format {
 	margin-top: 0px;
 	padding: 15% 20% 75% 20% !important;
 	background: url('images/laptop.jpg') no-repeat;
+	background-size: 100%;
 	background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -89,7 +90,8 @@ div.jumbo-format {
 #first-paragraph,
 .contact-info {
 	padding: 25% 5% !important;
-	font-size: 1.2em;
+	font-size: 1.4em;
+	font-kerning: 1.2em;
 	text-align: center;
 }
 
@@ -149,6 +151,7 @@ div.jumbo-format {
 	margin-top: 0px;
 	padding: 50% 5% !important;
 	background: url('images/hero.jpg') no-repeat;
+	background-size: 100%;
 	background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
