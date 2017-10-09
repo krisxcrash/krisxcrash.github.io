@@ -1,0 +1,148 @@
+.jumbotron {
+	padding: 80px 80px 80px 80px;
+	vertical-align: center;
+}
+
+h1 {
+	text-align: center;
+	margin-bottom: 21px;
+}
+
+
+button {
+	margin: 0 auto;
+	padding: 25px 10px;
+}
+
+#buttons {
+	padding: 0;
+	max-width: 1200px;
+	align-items: center;
+	margin: 25px 150px;
+}
+
+.btnDesign
+
+.searchbar {
+	padding: 25px 0;
+}
+
+#gifsHere {
+	margin: 25px 75px;
+	max-width: 1200px;
+	padding-bottom: 150px;
+}
+
+.btnDesign {
+	margin: 10px;
+	width: 200px;
+}
+
+.squares {
+	margin: 0 auto;
+}
+
+p {
+	background-color: black;
+	color: white;
+	width: 400px;
+	text-align: center;
+	padding: 10px;
+	margin-bottom: 0;
+}
+
+img {
+	align-content: center;
+}
+
+#footer {
+	font-size: 10px;
+	text-align: center;
+	color: #dddddd;
+	background: #666666;
+	border-top: 5px solid #4aaaa5;
+	position: fixed;
+	width: 110%;
+	bottom: 0;
+	grid-row-start: 2;
+	grid-row-end: 3;
+	padding: 25px 0;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 980px) {
+	#gifsHere {
+		max-width: 900px;
+	}
+	.gif {
+		width: 375px;
+		height: 280px;
+	}
+	p {
+		width: 375px;
+	}
+	#buttons {
+		max-width: 900px;
+		margin: 25px 90px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	#gifsHere {
+		margin-left: 20px;
+		max-width: 700px;
+	}
+	.gif {
+		width: 350px;
+		height: 260px;
+	}
+	p {
+		width: 350px;
+	}
+	.squares {
+		padding: 0;
+	}
+	#buttons {
+		max-width: 740px;
+		margin: 25px 50px;
+	}
+}
+
+@media screen and (max-width: 640px) {
+	#gifsHere {
+		margin-left: 50px;
+		max-width: 600px;
+	}
+	.gif {
+		width: 500px;
+		height: 400px;
+	}
+	p {
+		width: 500px;
+	}
+
+	#buttons {
+		max-width: 620px;
+		margin: 25px 80px;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	#gifsHere {
+		margin-left: 25px;
+		max-width: 450px;
+	}
+	.gif {
+		width: 400px;
+		height: 300px;
+	}
+	p {
+		width: 400px;
+	}
+	#buttons {
+		max-width: 450px;
+		margin: 25px 10px;
+	}
+}
+
