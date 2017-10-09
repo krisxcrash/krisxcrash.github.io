@@ -95,6 +95,7 @@ div.jumbo-format {
 /* First paragraph - About */
 
 #first-paragraph,
+#contact-me,
 .contact-info {
 	padding: 25% 5% !important;
 	font-size: 1.4em;
@@ -256,9 +257,20 @@ a {
 	background-size: 800px;
 }
 
+
+/* Contact */
+
+#email:hover,
+#email:active {
+	color: #00FFCD;
+}
+
+#email {
+	font-size: 1.2em;
+	color: #333;
+}
+
 /* Submit Form */
-
-
 
 .button-design {
 	align-content: center;
@@ -310,7 +322,7 @@ a {
 		width: 768px;
 	}
 
-	
+
  }
 
 /* Medium devices (desktops, 992px and up) */
