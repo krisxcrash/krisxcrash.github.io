@@ -2,6 +2,10 @@
 	font-family: 'Marvel', sans-serif;
 }
 
+body {
+	position: relative;
+}
+
 a:hover,
 a:visited,
 a:active {
@@ -9,6 +13,8 @@ a:active {
 	color: #333333;
 	background-color: transparent !important;
 }
+
+
 
 .page-body-format {
 	padding: 0;
@@ -39,6 +45,7 @@ div.container-format {
 .nav>li>a:hover, .nav>li>a:focus{
 	text-decoration: none;
 	background-color: transparent;
+	color:  #00FFCD !important;
 }
 
 .navbar-layout {
@@ -94,43 +101,6 @@ div.jumbo-format {
 	font-kerning: 1.2em;
 	text-align: center;
 }
-
-/* .about-arrow-down {
-	margin-top: 100px; 
-	text-align: center;
-}
-
-.arrow1 {
-	color: #00FFCD;
-	font-weight: bolder;
-	position: relative;
-    left: 0px;
-    top: 200%;
-    z-index: 155px;
-}
-
-.arrow2 {
-	color: #00FFCD;
-	font-weight: bolder;
-	position: relative;
-    left: 0px;
-    top: 275px;
-    z-index: 155px;
-}
-
-.arrow3 {
-	color: #00FFCD;
-	font-weight: bolder;
-	position: relative;
-    left: 0px;
-    top: 125px;
-    z-index: 155px;
-}
-
-.arrow:hover {
-	color: #000;
-	text-decoration: none !important;
-} */
 
 /* Portfolio */
 
@@ -339,6 +309,8 @@ a {
 	.portfolio-section {
 		width: 768px;
 	}
+
+	
  }
 
 /* Medium devices (desktops, 992px and up) */
@@ -350,6 +322,3 @@ a {
 		width: 992px;
 	}
  }
-
-/* Large devices (large desktops, 1200px and up) */
-/* @media (min-width: @screen-lg-min) { ... } */

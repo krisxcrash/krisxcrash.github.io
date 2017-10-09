@@ -20,6 +20,7 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 </head>
+
 <body class="page-body-format">
 
 <!-- Navbar -->
@@ -40,7 +41,7 @@
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse nav-design" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav navbar-right">
+      <ul class="nav navbar-nav navbar-right" id="nav-spy" role="tablist">
         <li><a href="#">Home</a></li>
         <li><a href="#first-paragraph-nav">About</a></li>
         <li><a href="#portfolio-section-nav">Portfolio</a></li>
@@ -71,6 +72,9 @@
   </div>
 
   <!-- Intro Paragraph -->
+
+  <div data-spy="scroll" data-target="#nav-spy">
+      
 
   <div class="container-fluid body-format">
 
@@ -105,14 +109,14 @@
   <div class= "portfolio-gallery row container-fluid portfolio-section-nav" id="portfolio-images">
 
   <div class="row">
-    <div class="col-md-3 col-sm-4 col-xs-12 box" id="box_1">
+    <!-- <div class="col-md-4 col-sm-6 col-xs-12 box" id="box_1">
       <a href="#" target="_blank">
         <h2><span>Haute Tribe Daily</span></h2>
         <h3>A daily fashion inspiration application.</h3>
         <h4>HTML5 | CSS3 | JS | NodeJS | mySQL</h4>
       </a>
-    </div>
-    <div class="col-md-3 col-sm-4 col-xs-12 box" id="box_2">
+    </div> -->
+    <div class="col-md-4 col-sm-6 col-xs-12 box" id="box_2">
       <a href="https://the-event-network.firebaseapp.com/" target="_blank">
         <h2><span>The Event Network</span></h2>
         <h3>An application to help plan your perfect night out.</h3>
@@ -120,7 +124,7 @@
       </a>
     </div>
 
-    <div class="col-md-3 col-sm-4 col-xs-12 box" id="box_3">
+    <div class="col-md-4 col-sm-6 col-xs-12 box" id="box_3">
       <a href="https://kxc-friend-finder.herokuapp.com/" target="_blank">
         <h2><span>Friend Finder</span></h2>
         <h3>A questionnaire to find a new best friend!</h3>
@@ -128,7 +132,7 @@
       </a>
     </div>
 
-    <div class="col-md-3 col-sm-4 col-xs-12 box" id="box_4">
+    <div class="col-md-4 col-sm-6 col-xs-12 box" id="box_4">
       <a href="https://kxc-burger.herokuapp.com/" target="_blank">
         <h2><span>Burger Burger</span></h2>
         <h3>Add, select, and "devour" burgers.</h3>
@@ -136,7 +140,7 @@
       </a>
     </div>
 
-    <div class="col-md-3 col-sm-4 col-xs-12 box" id="box_5">
+    <div class="col-md-4 col-sm-6 col-xs-12 box" id="box_5">
       <a href="portfolio/crystal_collector/index.html" target="_blank">
         <h2><span>Crystal Collector</span></h2>
         <h3>A fun game of collecting crystals.</h3>
@@ -144,29 +148,22 @@
       </a>
     </div>
 
-    <div class="col-md-3 col-sm-4 col-xs-12 box" id="box_6">
-      <a href="#" target="_blank">
-        <h2><span>Hangman Game</span></h2>
-        <h3>Take your shot at playing hangman!</h3>
-        <h4>HTML5 | CSS3 | JS</h4>
+    <div class="col-md-4 col-sm-6 col-xs-12 box" id="box_6">
+      <a href="portfolio/train_scheduler/index.html" target="_blank">
+        <h2><span>Train Scheduler</span></h2>
+        <h3>Track and add train schedules!</h3>
+        <h4>HTML5 | CSS3 | JS | Firebase</h4>
       </a>
     </div>
     
-    <div class="col-md-3 col-sm-4 col-xs-12 box" id="box_7">
-      <a href="portfolio/GifTastic/index.html" target="_blank">
+    <div class="col-md-4 col-sm-6 col-xs-12 box" id="box_7">
+      <a href="portfolio/giftastic/index.html" target="_blank">
         <h2><span>GifTastic</span></h2>
         <h3>Find and share fun gifs!</h3>
         <h4>HTML5 | CSS3 | JS</h4>
       </a>
     </div>
     
-    <div class="col-md-3 col-sm-4 col-xs-12 box" id="box_8">
-      <a href="#" target="_blank">
-        <h2><span>Placeholder</span></h2>
-        <h3>Snackwave blue bottle vegan pitchfork.</h3>
-        <h4>HTML5 | CSS3 | JS</h4>
-      </a>
-    </div>
   </div>
 
   </div>
@@ -230,6 +227,7 @@
       </div>
     
       </div>
+    </div>
 
 <!-- Footer -->
 
