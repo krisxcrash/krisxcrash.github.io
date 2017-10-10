@@ -387,6 +387,17 @@ a {
 		width: 768px;
 	}
 
+	div.jumbo-format {
+		margin-top: 0px;
+		padding: 15% 20% 75% 20% !important;
+		background: url('images/laptop.jpg') no-repeat;
+		background-size: 40%;
+		background-attachment: fixed;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+
 
  }
 
