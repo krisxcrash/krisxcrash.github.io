@@ -335,9 +335,9 @@ a {
 		rgba(0, 0, 0, 0.45)
 		),
 		url("../assets/images/gif.gif") no-repeat;
-	backgro:hoverund-size: 100%;
+	background-size: 100%;
 }
-#box_8 {
+#box_8:hover {
 	background: linear-gradient(
 		rgba(0, 0, 0, 0.45), 
 		rgba(0, 0, 0, 0.45)
