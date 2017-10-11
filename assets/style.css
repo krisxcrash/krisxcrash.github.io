@@ -48,6 +48,11 @@ div.container-format {
 	color:  #00FFCD !important;
 }
 
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
+    color: #ffffff;
+    background-color: transparent !important;
+}
+
 .navbar-layout {
 	background: none;
 	padding: 15px 35px;
@@ -127,9 +132,6 @@ div.jumbo-format {
     background-position: center;
     background-repeat: no-repeat;
 	background-size: cover;
-	
-	/* background: #000;
-	margin: 0 auto; */
 	padding: 75px 50px 100px 50px; 
 }
 
@@ -152,16 +154,17 @@ a {
 }
 
 .box {
-	border: 1px solid #fff;
 	height: 325px;
 }
 
 .box a {
-	color: black;
+	color: #fff;
+	text-shadow: black 0.1em 0.1em 0.2em;
 }
 
 .box a:hover {
 	color: #00FFCD;
+	text-shadow: black 0.1em 0.1em 0.2em;
 	text-decoration: none;
 }
 
@@ -213,30 +216,54 @@ a {
 /* Portfolio Images */
 
 #box_1 {
-	background: url("../assets/images/event-network.jpg") no-repeat;
+	background: linear-gradient(
+		rgba(0, 0, 0, 0.65), 
+		rgba(0, 0, 0, 0.65)
+		),url("../assets/images/event-network.jpg") no-repeat;
 }
 #box_2 {
-	background: url("../assets/images/event-network.jpg") no-repeat;
+	background: linear-gradient(
+		rgba(0, 0, 0, 6545), 
+		rgba(0, 0, 0, 0.6545)
+		),url("../assets/images/event-network.jpg") no-repeat;
 }
 #box_3 {
-	background: url("../assets/images/friends.jpg") no-repeat;
+	background: linear-gradient(
+		rgba(0, 0, 0, 0.6545), 
+		rgba(0, 0, 0, 0.6545)
+		),url("../assets/images/friends.jpg") no-repeat;
 }
 #box_4 {
-	background: url("../assets/images/burger-wp.jpg") no-repeat;
+	background: linear-gradient(
+		rgba(0, 0, 0, 0.6545), 
+		rgba(0, 0, 0, 0.65)
+		),url("../assets/images/burger-wp.jpg") no-repeat;
 }
 #box_5 {
-	background: url("../assets/images/background_2.jpg") no-repeat;
+	background: linear-gradient(
+		rgba(0, 0, 0, 0.65), 
+		rgba(0, 0, 0, 0.65)
+		),url("../assets/images/background_2.jpg") no-repeat;
 	background-size: 135% !important;
 }
 #box_6 {
-	background: url("../portfolio/train_scheduler/assets/images/train.jpg") no-repeat;
+	background: linear-gradient(
+		rgba(0, 0, 0, 0.65), 
+		rgba(0, 0, 0, 0.65)
+		),url("../portfolio/train_scheduler/assets/images/train.jpg") no-repeat;
 }
 #box_7 {
-	background: url("../assets/images/gif.gif") no-repeat;
+	background: linear-gradient(
+		rgba(0, 0, 0, 0.65), 
+		rgba(0, 0, 0, 0.65)
+		),url("../assets/images/gif.gif") no-repeat;
 	background-size: 100% !important;
 }
 #box_8 {
-	background: url("../portfolio/crystal_collector/assets/images/background_2.jpg") no-repeat;
+	background: linear-gradient(
+		rgba(0, 0, 0, 0.65), 
+		rgba(0, 0, 0, 0.65)
+		),url("../portfolio/crystal_collector/assets/images/background_2.jpg") no-repeat;
 } 
 
 #box_1,
