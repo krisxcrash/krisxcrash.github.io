@@ -22,6 +22,9 @@ div.container-format {
 	padding: 0;
 }
 
+section {
+	min-height: 100%;
+}
 /* Navbar Design */
 
 .navbar-default {
@@ -151,10 +154,6 @@ a {
   text-decoration: none;
 }
 
-.box {
-	height: 325px;
-}
-
 .box a {
 	color: #fff;
 	text-shadow: black 0.1em 0.1em 0.2em;
@@ -164,6 +163,7 @@ a {
 	color: #00FFCD;
 	text-shadow: black 0.1em 0.1em 0.2em;
 	text-decoration: none;
+	background-position: center;
 }
 
 .box a:visited {
@@ -171,6 +171,8 @@ a {
 }
 
 .box {
+	height: 325px;
+	background-position: center !important;
 	text-align: center;
 	background: black;
     background-size: cover;
@@ -218,12 +220,14 @@ a {
 		rgba(0, 0, 0, 0.65), 
 		rgba(0, 0, 0, 0.65)
 		),url("../assets/images/event-network.jpg") no-repeat;
+	background-position: center;
 }
 #box_2 {
 	background: linear-gradient(
 		rgba(0, 0, 0, 6545), 
 		rgba(0, 0, 0, 0.6545)
 		),url("../assets/images/event-network.jpg") no-repeat;
+	background-position: center;
 }
 #box_3 {
 	background: linear-gradient(
@@ -283,9 +287,10 @@ a {
 #box_7:hover,
 #box_8:hover {
 	background-size: 200% !important;
+	background-position: center;
 }
 
-#box_1 {
+#box_1:hover {
 	background: linear-gradient(
 		rgba(0, 0, 0, 0.45), 
 		rgba(0, 0, 0, 0.45)
