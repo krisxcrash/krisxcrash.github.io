@@ -66,6 +66,7 @@ img:hover {
 
 #scoreboard {
 	text-align: center;
+	font-size: 3em;
 }
 
 /* MEDIA QUERIES */
@@ -84,7 +85,12 @@ img:hover {
 
 @media screen and (max-width: 640px) {
 	#crystals {
-	margin: 0 55px;
+		margin: 0 auto;
+		align-content: center;
+	}
+	img {
+		width: 50%;
+		height: 50%;
 	}
 }
 
@@ -93,7 +99,12 @@ img:hover {
 		padding: 100px 25px;
 	}
 	#crystals {
-	margin: 0 100px;
+		margin: 0 auto;
+		align-content: center;
+	}
+	img {
+		width: 30%;
+		height: 30%;
 	}
 }
 
