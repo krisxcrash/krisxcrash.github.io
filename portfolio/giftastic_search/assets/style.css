@@ -46,6 +46,10 @@ button {
 	align-content: center;
 }
 
+.gif-container {
+	padding: 0;
+}
+
 .btnDesign {
 	margin: 10px;
 	width: 200px;
@@ -53,6 +57,7 @@ button {
 
 .squares {
 	margin: 0 auto;
+	padding: 0;
 }
 
 p {
