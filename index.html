@@ -1,226 +1,517 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html class="no-js" lang="">
+
 <head>
-	<meta charset="UTF-8">
+    <meta charset="utf-8">
+    <title>Kristine Martin</title>
+    <meta name="description" content="">
+    <meta name="msapplication-tap-highlight" content="yes" />
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, minimum-scale=1.0, maximum-scale=1.0" />
 
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <!-- Google Web Font -->
+    <link href='http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Lekton:400,700,400italic' rel='stylesheet' type='text/css'>
 
-  <title>KxC Digital</title>
+    <!--  Bootstrap 3-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
 
-  <link rel="shortcut icon" type="image/png" href="assets/images/favicon.png">
-  
-  <link href="https://fonts.googleapis.com/css?family=Marvel" rel="stylesheet">
+    <!-- OWL Carousel -->
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/owl.theme.css">
 
-  <link rel= "stylesheet" type="text/css" href="assets/style.css">
+    <!--  Slider -->
+    <link rel="stylesheet" href="css/jquery.kenburnsy.css">
 
-	<link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/yeti/bootstrap.min.css" rel="stylesheet">
+    <!-- Animate -->
+    <link rel="stylesheet" href="css/animate.css">
 
-	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <!-- Web Icons Font -->
+    <link rel="stylesheet" href="css/pe-icon-7-stroke.css">
+    <link rel="stylesheet" href="css/iconmoon.css">
+    <link rel="stylesheet" href="css/et-line.css">
+    <link rel="stylesheet" href="css/ionicons.css">
 
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!-- Magnific PopUp -->
+    <link rel="stylesheet" href="css/magnific-popup.css">
 
+    <!-- Tabs -->
+    <link rel="stylesheet" type="text/css" href="css/tabs.css" />
+    <link rel="stylesheet" type="text/css" href="css/tabstyles.css" />
+
+    <!-- Loader Style -->
+    <link rel="stylesheet" href="css/loader-1.css">
+
+    <!-- Costum Styles -->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/ico" href="favicon.ico">
+
+    <!-- Modernizer & Respond js -->
+    <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
 </head>
 
-<body class="page-body-format" data-spy="scroll" data-target="#nav-spy">
+<body>
 
-<!-- Navbar -->
+    <!-- Preloader -->
+    <div class="cover"></div>
 
-<nav class="navbar navbar-layout navbar-fixed-top navbar-default">
-
-  <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand nav-design" id="nav-logo" href="index.html">KxC</a>
-    </div>
-
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse nav-design" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav navbar-right" id="nav-spy" role="tablist">
-        <li><a href="#">Home</a></li>
-        <li><a href="#first-paragraph-nav">About</a></li>
-        <li><a href="#portfolio-section-nav">Portfolio</a></li>
-        <li><a href="#contact-info-nav">Contact</a></li>
-      </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav>
-	
-
-<!-- Jumbotron Header -->
-  <div class="container-fluid container-format">
-    <div class="jumbotron jumbo-format">
-      <!-- Typewriter about -->
-      <h1 id="typewriter-design">
-        <span class="typewrite" data-period="2000" data-type='[ "Hi, I&#39;m Kristine.", "I&#39;m a Full Stack Web Developer.", "I Solve Problems.", "I Love Design." ]'>
-          <span class="wrap"></span>
-        </span>
-      </h1>
-
-
-    </div>
-  </div>
-
-  <!-- Intro Paragraph -->
-
-  <div>
-      
-
-  <div class="container-fluid body-format">
-  <section id="1p">
-    <div id="first-paragraph">
-
-        <h2 class="header-design" id="first-paragraph-nav">
-          About Me
-        </h2>
-
-        <hr/>
-
-        <p class="about-p" id="p1">
-          A Full Stack Web Developer with a mobile-first approach, strong understanding of design, and a love for all things Digital. 
-
-        
-        </p>
-        <hr/> 
-
-
-    </div>
-  </section>
-  </div>
-
-  <!-- Portfolio-->
-  <div id="container-fluid portfolio-section">
-  <div class= "portfolio-section">
-  <h2 class="header-design" id="portfolio-section-nav">
-    Portfolio
-  </h2>
-
-  <div class= "portfolio-gallery row container-fluid portfolio-section-nav" id="portfolio-images">
-
-  <div class="row">
-    <!-- <div class="col-md-4 col-sm-6 col-xs-12 box" id="box_1">
-      <a href="#" target="_blank">
-        <h2><span>Haute Tribe Daily</span></h2>
-        <h3>A daily fashion inspiration application.</h3>
-        <h4>HTML5 | CSS3 | JS | NodeJS | mySQL</h4>
-      </a>
-    </div> -->
-    <div class="col-md-4 col-sm-6 col-xs-12 box" id="box_2">
-      <a href="https://the-event-network.firebaseapp.com/" target="_blank">
-        <h2><span>The Event Network</span></h2>
-        <h3>An application to help plan your perfect night out.</h3>
-        <h4>HTML5 | CSS3 | JS | NodeJS</h4>
-      </a>
-    </div>
-
-    <div class="col-md-4 col-sm-6 col-xs-12 box" id="box_3">
-      <a href="https://kxc-friend-finder.herokuapp.com/" target="_blank">
-        <h2><span>Friend Finder</span></h2>
-        <h3>A questionnaire to find a new best friend!</h3>
-        <h4>HTML5 | CSS3 | JS | NodeJS | mySQL</h4>
-      </a>
-    </div>
-
-    <div class="col-md-4 col-sm-6 col-xs-12 box" id="box_4">
-      <a href="https://kxc-burger.herokuapp.com/" target="_blank">
-        <h2><span>Burger Burger</span></h2>
-        <h3>Add, select, and "devour" burgers.</h3>
-        <h4>HTML5 | CSS3 | JS | Handlebars | NodeJS | mySQL</h4>
-      </a>
-    </div>
-
-    <div class="col-md-4 col-sm-6 col-xs-12 box" id="box_5">
-      <a href="portfolio/crystal_collector/index.html" target="_blank">
-        <h2><span>Crystal Collector</span></h2>
-        <h3>A fun game of collecting crystals.</h3>
-        <h4>HTML5 | CSS3 | JS</h4>
-      </a>
-    </div>
-
-    <div class="col-md-4 col-sm-6 col-xs-12 box" id="box_6">
-      <a href="portfolio/train_scheduler/index.html" target="_blank">
-        <h2><span>Train Scheduler</span></h2>
-        <h3>Track and add train schedules!</h3>
-        <h4>HTML5 | CSS3 | JS | Firebase</h4>
-      </a>
-    </div>
-    
-    <div class="col-md-4 col-sm-6 col-xs-12 box" id="box_7">
-      <a href="portfolio/giftastic_search/index.html" target="_blank">
-        <h2><span>GifTastic</span></h2>
-        <h3>Find and share fun gifs!</h3>
-        <h4>HTML5 | CSS3 | JS</h4>
-      </a>
-    </div>
-    
-  </div>
-
-  </div>
-
-  
-</div>
-</div>
-
-
-<!-- Contact -->
-
-<div class="container-fluid body-format">
-      
-      <div id="contact-me">
-          
-                <h2 class="header-design" id="contact-info-nav">
-                  Let's Chat
-                </h2>
-          
-                <hr/>
-          
-                  <h3>Kristine Martin</h3>
-
-                  <a href="mailto:KristineNicoleMartin@gmail.com?Subject=Hello%20There" target="_top" id="email"><h4>KristineNicoleMartin@gmail.com</a>
-                 
-                  <h4>(714) 273-9455</h4>
-
-                  <a href="https://github.com/krisxcrash" target="_blank">
-                    <img src="assets/images/if_icon-social-github_211904.png" alt="github" width="50">
-                  </a>
-                  <a href="https://www.linkedin.com/in/kristinenicolemartin/" target="_blank">
-                    <img src="assets/images/if_linkedin_circle_black_107159.png" alt="linkedin" width="50">
-                  </a>
-
-                <hr/> 
-          
-          
+    <div class="header">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="img/logo.png" alt="Logo">
+                </a>
             </div>
-    
+            
+            <!-- Menu Hamburger (Default) -->
+            <button class="main-menu-indicator" id="open-button">
+                <span class="line"></span>
+            </button>
+            
+            <div class="menu-wrap" style="background-image: url(img/nav_bg.jpg)">
+                <div class="menu-content">
+                    <div class="navigation">
+                        <span class="pe-7s-close close-menu" id="close-button"></span>
+                        <div class="search-wrap js-ui-search">
+                            <input class="js-ui-text" type="text" placeholder="Search Here...">
+                            <span class="eks js-ui-close"></span>
+                        </div>
+                    </div>
+                    <nav class="menu">
+                        <div class="menu-list">
+                            <ul>
+                                    <!-- <li class="menu-item-has-children"> -->
+                                            <li>
+                                                    <a href="index.html">Home</a>
+                                                    <!-- <ul class="sub-menu">
+                                                        <li><a href="index.html">- Default</a></li>
+                                                        <li><a href="index-architecture.html">- Architecture</a></li>
+                                                        <li><a href="index-full-slider.html">- Slider Full Width</a></li>
+                                                    </ul> -->
+                                                </li>
 
-      <hr/>
+                                
+                                <!-- <li><a href="about.html">About</a></li>
+                                <li class="menu-item-has-children">
+                                    <li><a href="#">Portfolio</a> -->
+                                    <!-- <ul class="sub-menu">
+                                        <li><a href="portfolio-2column.html">-Portfolio 2 Column</a></li>
+                                        <li><a href="portfolio-3column.html">-Portfolio 3 Column</a></li>
+                                        <li><a href="portfolio-masonry.html">-Portfolio Masonry</a></li>
+                                        <li><a href="portfolio-dribbble.html">-Portfolio Dribbble</a></li>
+                                    </ul> -->
+                                <!-- </li>
+                                <li class="menu-item-has-children">
+                                    <li><a href="#">Blog</a> -->
+                                    <!-- <ul class="sub-menu">
+                                        <li><a href="blog.html">Blog Default</a></li>
+                                        <li><a href="blog-timeline.html">Blog Timeline</a></li>
+                                        <li><a href="single-blog.html">Blog Single</a></li>
+                                    </ul> -->
+                                <!-- </li> -->
+                                <li><a href="contact.html">Contact</a></li>
+                            </ul>
+                        </div>
+                    </nav>
 
-  </div>
-</div>
+                    <div class="hidden-xs">
+                        <div class="menu-social-media">
+                            <ul>
+                               <!-- <li><a href="#"><i class="iconmoon-facebook"></i></a></li>
+                                <li><a href="#"><i class="iconmoon-twitter"></i></a></li>
+                                <li><a href="#"><i class="iconmoon-flickr2"></i></a></li> -->
+                                <li><a href="https://dribbble.com/krisxcrash"><i class="iconmoon-dribbble3"></i></a></li>
+                                <!-- <li><a href="#"><i class="iconmoon-pinterest"></i></a></li> -->
+                                <li><a href="https://www.linkedin.com/in/kristinenicolemartin/"><i class="iconmoon-linkedin2"></i></a></li>
+                            </ul>
+                        </div>
 
+                        <div class="menu-information">
+                            <ul>
+                                <li><span>T:</span> 714 273 9455</li>
+                                <li><span>E:</span> kxcdigital@gmail.com</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End of Menu Hamburger (Default) -->
 
-    
-      </div>
-    
-      </div>
+        </div>
     </div>
 
-<!-- Footer -->
+    <div class="container">
+        <div class="slider-wrapper">
+            <div class="slider-description">
+                <div class="slider-description-inner">
+                    <h1>Kristine<span>Martin</span></h1>
+                </div>
+                <div class="cd-intro">
+                    <div class="cd-headline clip">
+                        <span class="cd-words-wrapper">
+                            <b class="is-visible">FULL STACK DEVELOPER</b>
+                            <b>PIXEL PERFECT DESIGN</b>
+                            <b>CREATIVE SOLUTIONS</b>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div id="slider-ef" class="slider-images-wrapper">
+                <img class="img-responsive" src="img/slider/laptop.jpg" alt="laptop">
+                <img class="img-responsive" src="img/slider/laptop.jpg" alt="laptop2">
+                <img class="img-responsive" src="img/slider/laptop.jpg" alt="laptop3">
+            </div>
+        </div>
+    </div>
+    <div class="container margin-top">
+        <div class="history-wrapper">
+            <div class="col-md-6 wow fadeInUp" data-wow-duration="0.6s" data-wow-delay="0.5s">
+                <div class="row">
+                    <article>
+                        <h1>ABOUT ME</h1>
+                        <hr>
+                        <h4>DESIGN IS NOT JUST WHAT IT LOOKS LIKE AND FEELS LIKE. DESIGN IS HOW IT WORKS. -STEVE JOBS</h4>
+                        <p>
+                        <br/>An experienced Front-End Developer based out of Orange County. A passion for executing pixel perfect design that is fully functional. A self-proclaimed nerd with a love for all things digital.</p>
+                    </article>
+                </div>
+            </div>
+            <div class="col-md-5 col-md-offset-1 wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s">
+                <div class="row">
+                    <div id="history-images" class="owl-carousel">
+                        <div><img class="img-responsive center-block" src="img/about1.jpg" alt="About"></div>
+                        <div><img class="img-responsive center-block" src="img/about.jpg" alt="About"></div>
+                        <!-- <div><img class="img-responsive center-block" src="img/about.jpg" alt="About"></div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container margin-top">
+        <div class="main-title">
+            <h1>WHY CHOOSE ME?</h1>
+            <hr>
+            <h6>Quality development from concept through creation.</h6>
+        </div>
+        <div class="services-home-page">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="services-icon">
+                        <span class="icon-paintbrush"></span>
+                        <hr>
+                    </div>
+                    <h4>FRONT END</h4>
+                    <p>Implement client-side UX and functionality based on design.</p>
+                </div>
+                <div class="col-md-4">
+                    <div class="services-icon">
+                        <span class="icon-tools"></span>
+                        <hr>
+                    </div>
+                    <h4>BACK END</h4>
+                    <p>Server-side logic and integration of front-end development.</p>
+                </div>
+                <div class="col-md-4">
+                    <div class="services-icon">
+                        <span class="icon-globe"></span>
+                        <hr>
+                    </div>
+                    <h4>FULL STACK</h4>
+                    <p>Impletementation of both front and back end development.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container margin-top">
+        <div class="main-title">
+            <h1>PORTFOLIO</h1>
+            <hr>
+            <h6>Some examples of my work.</h6>
+        </div>
+        <div class="portfolio-wrapper">
+            <button class="nav">
+                <span class="icon-container">
+                    <span class="line line01"></span>
+                    <span class="line line02"></span>
+                    <span class="line line03"></span>
+                    <span class="line line04"></span>
+                </span>
+            </button>
+            <div class="works-filter">
+                <a href="javascript:void(0)" class="filter active" data-filter="mix">All</a>
+                <a href="javascript:void(0)" class="filter" data-filter="front-end">Front End</a>
+                <a href="javascript:void(0)" class="filter" data-filter="back-end">Back End</a>
+                <a href="javascript:void(0)" class="filter" data-filter="full-stack">Full Stack</a>
+            </div>
+            <div class="js-masonry">
+                <div class="row" id="work-grid">
+                    <!-- Begin of Thumbs Portfolio -->
+                    <div class="col-md-4 col-sm-4 col-xs-12 mix back-end">
+                        <div class="img home-portfolio-image">
+                            <img src="img/home-portfolio/event.jpg" alt="Portfolio Item">
+                            <div class="overlay-thumb">
+                                <a href="javascript:void(0)" class="like-product">
+                                    <i class="ion-ios-heart-outline"></i>
+                                    <span class="like-product">Liked</span>
+                                    <span class="output">250</span>
+                                </a>
+                                <div class="details">
+                                    <span class="title">THE EVENT NETWORK</span>
+                                    <span class="info">LOCAL EVENTS & RESTAURANTS NEAR YOU</span>
+                                </div>
+                                <span class="btnBefore"></span>
+                                <span class="btnAfter"></span>
+                                <a class="main-portfolio-link" href="https://the-event-network.firebaseapp.com/"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-12 mix full-stack">
+                        <div class="img home-portfolio-image">
+                            <img src="img/home-portfolio/friends.jpg" alt="Portfolio Item">
+                            <div class="overlay-thumb">
+                                <a href="javascript:void(0)" class="like-product">
+                                    <i class="ion-ios-heart-outline"></i>
+                                    <span class="like-product">Liked</span>
+                                    <span class="output">60</span>
+                                </a>
+                                <div class="details">
+                                    <span class="title">FRIEND FINDER</span>
+                                    <span class="info">FIND YOUR NEW ANIMAL FRIEND</span>
+                                </div>
+                                <span class="btnBefore"></span>
+                                <span class="btnAfter"></span>
+                                <a class="main-portfolio-link" href="https://kxc-friend-finder.herokuapp.com/"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-12 mix full-stack">
+                        <div class="img home-portfolio-image">
+                            <img src="img/home-portfolio/burger.jpg" alt="Portfolio Item">
+                            <div class="overlay-thumb">
+                                <a href="javascript:void(0)" class="like-product">
+                                    <i class="ion-ios-heart-outline"></i>
+                                    <span class="like-product">Liked</span>
+                                    <span class="output">1060</span>
+                                </a>
+                                <div class="details">
+                                    <span class="title">BURGER BURGER</span>
+                                    <span class="info">AN INTERACTIVE RESTAURANT MENU</span>
+                                </div>
+                                <span class="btnBefore"></span>
+                                <span class="btnAfter"></span>
+                                <a class="main-portfolio-link" href="https://kxc-burger.herokuapp.com/"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-12 mix front-end">
+                        <div class="img home-portfolio-image">
+                            <img src="img/home-portfolio/crystal.jpg" alt="Portfolio Item">
+                            <div class="overlay-thumb">
+                                <a href="javascript:void(0)" class="like-product">
+                                    <i class="ion-ios-heart-outline"></i>
+                                    <span class="like-product">Liked</span>
+                                    <span class="output">900</span>
+                                </a>
+                                <div class="details">
+                                    <span class="title">CRYSTAL COLLECTER</span>
+                                    <span class="info">COLLECT CRYSTALS TO WIN</span>
+                                </div>
+                                <span class="btnBefore"></span>
+                                <span class="btnAfter"></span>
+                                <a class="main-portfolio-link" href="portfolio/crystal_collector/index.html"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-12 mix full-stack">
+                        <div class="img home-portfolio-image">
+                            <img src="img/home-portfolio/train.jpg" alt="Portfolio Item">
+                            <div class="overlay-thumb">
+                                <a href="javascript:void(0)" class="like-product">
+                                    <i class="ion-ios-heart-outline"></i>
+                                    <span class="like-product">Liked</span>
+                                    <span class="output">979</span>
+                                </a>
+                                <div class="details">
+                                    <span class="title">TRAIN SCHEDULER</span>
+                                    <span class="info">CHECK AND INPUT LOCAL TRAIN SCHEDULES</span>
+                                </div>
+                                <span class="btnBefore"></span>
+                                <span class="btnAfter"></span>
+                                <a class="main-portfolio-link" href="portfolio/train_scheduler/index.html"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-12 mix front-end">
+                        <div class="img home-portfolio-image">
+                            <img src="img/home-portfolio/giphy.jpg" alt="Portfolio Item">
+                            <div class="overlay-thumb">
+                                <a href="javascript:void(0)" class="like-product">
+                                    <i class="ion-ios-heart-outline"></i>
+                                    <span class="like-product">Liked</span>
+                                    <span class="output">1024</span>
+                                </a>
+                                <div class="details">
+                                    <span class="title">GIFTASTIC</span>
+                                    <span class="info">SEARCH YOUR FAVORITE GIPHYS</span>
+                                </div>
+                                <span class="btnBefore"></span>
+                                <span class="btnAfter"></span>
+                                <a class="main-portfolio-link" href="portfolio/giftastic_search/index.html"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-12 mix branding hidden">
+                        <div class="img home-portfolio-image">
+                            <img src="img/home-portfolio/img_7.jpg" alt="Portfolio Item">
+                            <div class="overlay-thumb">
+                                <a href="javascript:void(0)" class="like-product">
+                                    <i class="ion-ios-heart-outline"></i>
+                                    <span class="like-product">Liked</span>
+                                    <span class="output">2048</span>
+                                </a>
+                                <div class="details">
+                                    <span class="title">COMING SOON..</span>
+                                    <span class="info">SOMETHING EXCITING IS IN THE WORKS</span>
+                                </div>
+                                <span class="btnBefore"></span>
+                                <span class="btnAfter"></span>
+                                <a class="main-portfolio-link" href="single-project.html"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-12 mix branding hidden">
+                        <div class="img home-portfolio-image">
+                            <img src="img/home-portfolio/img_8.jpg" alt="Portfolio Item">
+                            <div class="overlay-thumb">
+                                <a href="javascript:void(0)" class="like-product">
+                                    <i class="ion-ios-heart-outline"></i>
+                                    <span class="like-product">Liked</span>
+                                    <span class="output">256</span>
+                                </a>
+                                <div class="details">
+                                    <span class="title">COMING SOON..</span>
+                                    <span class="info">SOMETHING EXCITING IS IN THE WORKS</span>
+                                </div>
+                                <span class="btnBefore"></span>
+                                <span class="btnAfter"></span>
+                                <a class="main-portfolio-link" href="single-project.html"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-12 mix branding hidden">
+                        <div class="img home-portfolio-image">
+                            <img src="img/home-portfolio/img_9.jpg" alt="Portfolio Item">
+                            <div class="overlay-thumb">
+                                <a href="javascript:void(0)" class="like-product">
+                                    <i class="ion-ios-heart-outline"></i>
+                                    <span class="like-product">Liked</span>
+                                    <span class="output">256</span>
+                                </a>
+                                <div class="details">
+                                    <span class="title">COMING SOON..</span>
+                                    <span class="info">SOMETHING EXCITING IS IN THE WORKS</span>
+                                </div>
+                                <span class="btnBefore"></span>
+                                <span class="btnAfter"></span>
+                                <a class="main-portfolio-link" href="single-project.html"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="load-more">
+                <a href="javascript:void(0)" id="load-more"><i class="icon-refresh"></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="container margin-top">
+        <div class="newsletter">
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="newsletter-left">
+                        <div class="newsletter-left-inner">
+                            <h1>STAY INFORMED. <br> CHECK THE <b>NEWSLETTER</b></h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="newsletter-right" style="background: url(img/newsletter-bg.jpg)">
+                        <div class="newsletter-right-inner">
+                            <form>
+                                <input type="text" name="newsletter" placeholder="ENTER YOUR EMAIL">
+                                <input type="submit" value="SUBSCRIBE">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer margin-top">
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-2 col-sm-4 col-xs-12">
+                        <div class="footer-inner">
+                            <div class="footer-content">
+                                <h4>KxC Digital</h4>
+                                    <address><br/>Irvine<br/>California</address>
+                            </div>
+                        </div>
+                    </div>
 
-<footer class ="footer">
-  <div class="col-md-12" id="footer">
-    <a href="https://krisxcrash.github.io" alt="KxC Digital">@KXCdigital</a>
-  </div>
-</footer>
+                    <div class="col-md-2 col-md-push-8 col-sm-4 col-xs-12">
+                        <div class="footer-inner">
+                            <div class="footer-content">
+                               <h4>CONTACT INFO</h4>
+                                <p>
+                                    T:714 273 9455 <br>
+                                    E:kxcdigital@gmail.com <br>
+                                    W:https://krisxcrash.github.io
+                                </p>
+                            </div>
+                        </div>
+                    </div>
 
-<!-- JavaScript -->
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                        <div class="footer-inner">
+                            <div class="footer-content">
+                            <ul class="social-media">
+                                <!-- <li><a href="#"><i class="iconmoon-facebook"></i></a></li>
+                                <li><a href="#"><i class="iconmoon-twitter"></i></a></li>
+                                <li><a href="#"><i class="iconmoon-flickr2"></i></a></li> -->
+                                <li><a href="https://dribbble.com/krisxcrash"><i class="iconmoon-dribbble3"></i></a></li>
+                                <!-- <li><a href="#"><i class="iconmoon-pinterest"></i></a></li> -->
+                                <li><a href="https://www.linkedin.com/in/kristinenicolemartin/"><i class="iconmoon-linkedin2"></i></a></li>
+                            </ul>
+                            <span class="copyright-mark">&copy; 2017 KxC Digital</span>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+    <a href="javascript:void(0)" class="scroll-top" id="scroll-top"><i class="pe-7s-angle-up"></i></a>
 
-<script type="text/javascript" src="assets/app.js"></script>
-
+    <script src="js/vendor/jquery-1.11.2.min.js"></script>
+    <script data-pace-options='{ "ajax": false }' src="js/vendor/pace.min.js"></script>
+    <script src="js/vendor/bootstrap.min.js"></script>
+    <script src="js/vendor/classie.js"></script>
+    <script src="js/vendor/isotope.pkgd.min.js"></script>
+    <script src="js/vendor/jquery.velocity.min.js"></script>
+    <script src="js/vendor/jquery.kenburnsy.min.js"></script>
+    <script src="js/vendor/textslide.js"></script>
+    <script src="js/vendor/imagesloaded.pkgd.min.js"></script>
+    <script src="js/vendor/tabs.js"></script>
+    <script src="js/ef-slider.js"></script>    
+    <script src="js/vendor/owl.carousel.min.js"></script>
+    <script src="js/vendor/jquery.magnific-popup.min.js"></script>
+    <script src="js/vendor/jquery.social-buttons.min.js"></script>
+    <script src="js/vendor/wow.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/ajax.js"></script>
 </body>
-</html> -->
+</html>

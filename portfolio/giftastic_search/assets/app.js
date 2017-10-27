@@ -14,6 +14,8 @@ $(document).ready(function() {
 
 	$("button").on("click", function() {
 
+		$('#gifsHere').empty()
+
 // assigns attribute to button for gif query
         
 	var gifButton = $(this).attr("data-person");

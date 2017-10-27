@@ -29,7 +29,6 @@ section {
 
 .navbar-default {
 	background-color: transparent !important;
-
 }
 
 #nav-logo {
@@ -245,7 +244,7 @@ a {
 	background: linear-gradient(
 		rgba(0, 0, 0, 0.65), 
 		rgba(0, 0, 0, 0.65)
-		),url("../assets/images/background_2.jpg") no-repeat;
+		),url("../assets/images/Crystal_Mockup.jpg") no-repeat;
 	background-size: 135% !important;
 }
 #box_6 {
@@ -323,7 +322,7 @@ a {
 		rgba(0, 0, 0, 0.45), 
 		rgba(0, 0, 0, 0.45)
 		),
-		url("../assets/images/background_2.jpg") no-repeat;
+		url("../assets/images/Crystal_Mockup.jpg") no-repeat;
 }
 #box_6:hover {
 	background: linear-gradient(
