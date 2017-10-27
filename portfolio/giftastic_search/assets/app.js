@@ -1,4 +1,4 @@
-var topics = [];
+var topics = ["mario", "family guy", "simpsons", "scooby doo", "the office"];
 
 //runs when the page is ready
 $(document).on('click', '#searchButton', function() {
