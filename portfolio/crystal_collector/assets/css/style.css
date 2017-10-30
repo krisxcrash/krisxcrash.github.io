@@ -44,6 +44,10 @@ img:hover {
 	align-content: center;
 }
 
+.gems {
+	width: 32%;
+}
+
 /* BODY FORMATTING */
 
 .col-md-6 {
