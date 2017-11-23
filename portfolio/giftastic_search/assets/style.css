@@ -2,64 +2,49 @@
 	background: #18181A;
 	width: 100%;
 }
-
 .jumbo-bkg {
 	background: url("../assets/images/GIPHY.gif") no-repeat;
 	background-position: center;
 	margin: 0 15% 2% 0;
 }
-
 .jumbotron {
 	padding: 18%;
 	vertical-align: center;
 }
-
-
-
 h1 {
 	text-align: center;
 	margin-bottom: 21px;
 }
-
-
 button {
 	margin: 0 auto;
 	padding: 25px 10px;
 }
-
 #buttons {
 	padding: 0;
 	max-width: 1200px;
 	align-items: center;
 	margin: 0 auto;
 }
-
-
 .searchbar {
 	padding: 25px 0;
 }
-
 #gifsHere {
 	margin: 0 auto;
 	max-width: 1200px;
 	padding-bottom: 150px;
 	align-content: center;
 }
-
 .gif-container {
 	padding: 0;
 }
-
 .btnDesign {
 	margin: 10px;
 	width: 200px;
 }
-
 .squares {
 	margin: 0 auto;
 	padding: 0;
 }
-
 p {
 	background-color: black;
 	color: white;
@@ -68,11 +53,9 @@ p {
 	padding: 10px;
 	margin-bottom: 0;
 }
-
 img {
 	align-content: center;
 }
-
 #footer {
 	font-size: 10px;
 	text-align: center;
@@ -85,7 +68,6 @@ img {
 	grid-row-end: 3;
 	padding: 12px 0;
 }
-
 #footer a {
 	color: #fff;
 	text-decoration: none;
@@ -94,7 +76,6 @@ img {
 	color: #666;
 	text-decoration: none;
 }
-
 /* MEDIA QUERIES */
 
 @media screen and (max-width: 980px) {
@@ -108,7 +89,6 @@ img {
 		padding: 18%;
 		vertical-align: center;
 	}
-
 	#gifsHere {
 		margin-left: 10%;
 		max-width: 900px;
@@ -125,7 +105,6 @@ img {
 		margin: 25px 90px;
 	}
 }
-
 @media screen and (max-width: 768px) {
 	#gifsHere {
 		margin-left: 20px;
@@ -146,7 +125,6 @@ img {
 		margin: 25px 50px;
 	}
 }
-
 @media screen and (max-width: 640px) {
 	#gifsHere {
 		margin-left: 6%;
@@ -159,13 +137,11 @@ img {
 	p {
 		width: 500px;
 	}
-
 	#buttons {
 		max-width: 620px;
 		margin: 25px 80px;
 	}
 }
-
 @media screen and (max-width: 480px) {
 	#gifsHere {
 		margin-left: 2%;
@@ -183,4 +159,3 @@ img {
 		margin: 25px 10px;
 	}
 }
-
