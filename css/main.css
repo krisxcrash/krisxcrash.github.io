@@ -489,12 +489,13 @@ a:hover>span.site-name{
     margin-left: 6%;
 }
 .slider-description-inner h1 {
-    font-family: 'azedobold';
+    font-family: 'Encode Sans Condensed', sans-serif;;
+    font-weight: 60;
     font-size: 60px;
     letter-spacing: 8px;
 }
 .slider-description-inner h1 span {
-    font-family: 'azedolight';
+    font-family: 'Encode Sans Condensed', sans-serif;;
     background: #7beec7;
     padding: 22px;
     font-weight: 100;
@@ -582,7 +583,7 @@ a:hover>span.site-name{
 .header-page .inner-content .header-content h1 {
     text-align: center;
     font-size: 60px;
-    font-family: 'azedobold', sans-serif;
+    font-family: 'Encode Sans Condensed', sans-serif;;
 }
 .header-page .inner-content .header-content hr {
     float: none;
@@ -831,7 +832,7 @@ svg {
 }
 .slide__text-heading {
     font-size: 48px;
-    font-family: 'azedobold';
+    font-family: 'Encode Sans Condensed', sans-serif;;
     text-transform: uppercase;
     font-weight: 800;
     dispay: block;
@@ -841,7 +842,7 @@ svg {
     letter-spacing: 4.5pt;
 }
 span.border-text {
-    font-family: 'azedolight';
+    font-family: 'Encode Sans Condensed', sans-serif;;
     font-weight: 100;
     color: #fff;
     border: 2px solid #fff;
@@ -2616,7 +2617,7 @@ ul.social-buttons li {
     margin-right: 10px;
     margin-top: 8px;
     text-align: center;
-    font-family: 'azedobold';
+    font-family: 'Encode Sans Condensed', sans-serif;;
 }
 /*Blog Timeline*/
 .cbp_tmtimeline {
@@ -2750,7 +2751,7 @@ ul.social-buttons li {
 .inner-map .inner-map-content h1 {
     text-align: center;
     font-size: 60px;
-    font-family: 'azedobold', sans-serif;
+    font-family: 'Encode Sans Condensed', sans-serif;;
 }
 .inner-map .inner-map-content hr {
     float: none;
