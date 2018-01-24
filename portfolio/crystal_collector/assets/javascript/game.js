@@ -54,7 +54,6 @@ $(document).ready(function() {
 	}
 	// WHEN CLICKED, "USER NUMBER" INCREASES BY VALUE OF GEM
 	$('.gems').on('click', function() {
-		// var score = $(this).attr('data-score');
 		userNumber += Number($(this).attr("data-value"));
 		$('#uNumber').html(userNumber);
 		displayRandom();
