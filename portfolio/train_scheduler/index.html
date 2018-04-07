@@ -49,16 +49,16 @@
 			<div class="panel-body panelFormat">
 				<form>
 					<div class="form-group">
-						<label for="trainName">Train Name</label> <input class="form-control inputFormat" id="trainNameInput" placeholder="What train are you taking?" type="text">
+						<label for="trainName" maxlength="30" required>Train Name</label> <input class="form-control inputFormat" id="trainNameInput" placeholder="What train are you taking?" type="text">
 					</div>
 					<div class="form-group">
-						<label for="destination">Destination</label> <input class="form-control inputFormat" id="destinationInput" placeholder="Where is it going?" type="text">
+						<label for="destination" maxlength="30" required>Destination</label> <input class="form-control inputFormat" id="destinationInput" placeholder="Where is it going?" type="text">
 					</div>
 					<div class="form-group">
-						<label for="firstTrainTime">First Train Time (HH:MM - Military Time)</label> <input class="form-control inputFormat" id="timeInput" placeholder="HH:MM - Enter using military time." type="text">
+						<label for="firstTrainTime" maxlength="5" required>First Train Time (HH:MM - Military Time)</label> <input class="form-control inputFormat" id="timeInput" placeholder="HH:MM - Enter using military time." type="text">
 					</div>
 					<div class="form-group">
-						<label for="frequency">Frequency (Minutes)</label> <input class="form-control inputFormat" id="frequencyInput" placeholder="How frequent is the train?" type="text">
+						<label for="frequency" maxlength="3" required>Frequency (Minutes)</label> <input class="form-control inputFormat" id="frequencyInput" placeholder="How frequent is the train?" type="text">
 					</div><button class="btn btn-default" id="addTrain" type="submit">Submit</button>
 				</form>
 			</div>
