@@ -28,6 +28,11 @@ button {
 .searchbar {
 	padding: 25px 0;
 }
+
+.fa-search:before {
+	color: #fff;
+	font-size: 26px;
+}
 #gifsHere {
 	margin: 0 auto;
 	max-width: 1200px;
